@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;1,200;1,300;1,400&display=swap');
+
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+p{
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text,
+.navbar-light .navbar-nav .active >.nav-link,
+.navbar-light .navbar-nav .nav-link{
+    color: #53a653;
+}
+
+.navbar-light .navbar-nav .active >.nav-link:hover,
+.navbar-light .navbar-nav .nav-link:hover{
+    border-bottom: 1px solid #FFA500;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+#footer-nav .footer-links > a{
+    text-decoration: none;
+    color: #53a653;
+}
+
+ul#footer-nav li{
+    display: inline;
+    padding:5px;
+}
+
+ul#footer-nav .footer-links:hover{
+    border-bottom: 1px solid #FFA500;
+    padding-bottom: 5px;
+    cursor: pointer;
+}
+
+/* ..........................coming soon*/
+
+.coming-soon{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ........................search-bars */
+
+.lesson-plan-searchbar{
+    height: 50px;
+    width: 100%;
+}
+
+#warmers-table,
+#young-learners-table,
+#eap-table,
+#systems-table,
+#skills-table{
+    display: none;
+}
+
+.about-lesson,
+.navbar,
+.lesson-plans-title,
+.about-lps{
+    border-bottom: 2px solid #FFA500;
+}
+
+.back-to-lps{
+    border-top:#FFA500 2px solid;
+}
+
+.lesson-plan,
+.lesson-plan-cards{
+    border: 2px solid #FFA500;
+}
+
+/* .............................privacy policy */
+
+.privacy-policy p,
+.privacy-policy ul{
+    line-height: 2;
+}
+
+/* .................................home page */
+
+.home-subtitles{
+    border-bottom: #53a653 1px solid;
+}
+
+.card{
+    width:24%;
+    border: 2px solid #FFA500;
+}
+
+.card-title{
+    color: #53a653;
+    border-bottom: 1px solid #FFA500;
+    padding-bottom: 5px;
+}
+
+
+/* .....................................lessonplans */
+#delete-lesson-plan-button{
+    display: none;
+}
+
+
+
+/* ..........................media-queries */
+ 
+ @media all and (max-width: 480px) {
+    .card{
+        width:100%;
+    }
+
+    .go-to-lesson-btn{
+        min-width: 80px;
+        max-width: 80px;
+    }
+  }
+
+  @media all and (min-width: 480px) and (max-width: 768px) {
+    .card{
+        width:100%;
+    }
+  }
+
+  @media all and (min-width: 768px) and (max-width: 1024px) { }
+
+  @media all and (min-width: 1024px) and (max-width: 1280px) { }
